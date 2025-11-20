@@ -1,43 +1,80 @@
-<h1 align="center">FitLife App - Flutter UI Template</h1>
+# FitLife App - Flutter UI Template
 
-## Screens
-<p align="center">
-<img width="200" src="https://i.pinimg.com/originals/a6/b1/6d/a6b16da16aa49f7df788cd1d92cafd63.jpg"/>
-<img width="200" src="https://i.pinimg.com/originals/3d/74/a9/3d74a91a4d260fc5abb53fd027d0fbae.jpg"/>
-<img width="200" src="https://i.pinimg.com/originals/fc/98/9e/fc989e6833f81ddabe3668b778fe54fd.jpg"/>
-<img width="200" src="https://i.pinimg.com/originals/f0/bd/96/f0bd96ce4e7a32d799a89736b4d6a58d.jpg"/>
-</p>
-<p align="center">
-<img width="400" src="https://i.pinimg.com/originals/d0/35/b5/d035b5593fb0a4dae78c0a52d8a25a97.jpg"/>
-</p>
-<p align="center">
-<img width="200" src="https://i.pinimg.com/originals/96/ef/4c/96ef4c5e1c87f5be5c54ba649570543c.jpg"/>
-<img width="200" src="https://i.pinimg.com/originals/60/ae/0c/60ae0cf208b8507f682ef313f38b6213.jpg"/>
-<img width="200" src="https://i.pinimg.com/originals/4a/ac/1a/4aac1a6edd80afd9a66f51e3ea11ae84.jpg"/>
-<img width="200" src="https://i.pinimg.com/originals/52/08/76/52087695529a2ca85c646660d1e63dfd.jpg"/>
-</p>
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
+[![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## Knowledge
-This knowledges are basic for flutter developers (maybe all developers...) but was my first 'project' made in flutter so... starting with basic :P
+A clean and modern Flutter UI template designed for fitness and health tracking applications. This project demonstrates best practices in Flutter development, including custom components, state management, and responsive design. Perfect as a starting point for building mobile apps focused on wellness, exercise programs, diet tracking, and progress visualization.
 
-- Flutter structure and mentality to make a new screen;
-- Use and create custom components;
-- Install and use packages (ex.: progress bar or charts);
-- Conditional render based on screen orientation;
+## Features
 
-## How to use
-To clone and run this application, you'll need [Git](https://git-scm.com/downloads) and [Flutter](https://flutter.dev/docs/get-started/install) installed on your computer. From your command line:
+- **Tabbed Navigation**: Intuitive bottom navigation with tabs for Programs, Diet, Results, and more.
+- **Custom Components**: Reusable widgets like progress bars, charts, and card layouts for a consistent UI.
+- **Responsive Design**: Adapts to different screen orientations and sizes.
+- **Data Visualization**: Integrated charts and indicators for tracking fitness metrics.
+- **Modular Architecture**: Easy to extend with new features or customize for specific needs.
 
-```$bash
-# Clone this repository
-$ git clone https://github.com/frangelbarrera/fitlife-app.git
+## Technologies Used
 
-# Go into the repository
-$ cd fitlife-app
+- **Flutter**: Cross-platform framework for building native mobile apps.
+- **Dart**: Programming language for Flutter development.
+- **Packages**:
+  - `flutter_rounded_progress_bar`: For custom progress indicators.
+  - `bezier_chart`: For data visualization charts.
+  - `percent_indicator`: For percentage-based UI elements.
 
-# Install packages
-$ flutter packages get
+## Installation
 
-# Run the app
-$ flutter run
+To run this project locally, ensure you have [Flutter](https://flutter.dev/docs/get-started/install) and [Dart](https://dart.dev/get-dart) installed on your system.
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/frangelbarrera/fitlife-app.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd fitlife-app
+   ```
+
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+4. Run the app:
+   ```bash
+   flutter run
+   ```
+
+## Usage
+
+This template provides a foundation for fitness apps. Key screens include:
+- **Programs**: Browse and select workout programs.
+- **Diet**: Track meals and nutrition.
+- **Results**: View progress charts and statistics.
+- **Activity Details**: Detailed views for exercises and timers.
+
+Customize the UI components in `lib/components/` and data models in `lib/models/` to fit your app's requirements.
+
+## Project Structure
+
 ```
+lib/
+├── components/          # Reusable UI components
+├── data/                # Static data (e.g., dishes)
+├── models/              # Data models (e.g., Exercise)
+├── pages/               # Screen pages
+├── tabs/                # Tab-based navigation
+└── main.dart            # App entry point
+```
+
+## Contributing
+
+Contributions are welcome! If you'd like to improve this template:
+1. Fork the repository.
+2. Create a feature branch.
+3. Make your changes and test thoroughly.
+4. Submit a pull request.
+
+
