@@ -41,7 +41,3 @@ $ flutter packages get
 # Run the app
 $ flutter run
 ```
-
-
-## About
-This project is a Flutter UI template for fitness applications, part of my portfolio. Check out more projects at [https://github.com/frangelbarrera/](https://github.com/frangelbarrera/).
