@@ -77,4 +77,10 @@ Contributions are welcome! If you'd like to improve this template:
 3. Make your changes and test thoroughly.
 4. Submit a pull request.
 
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
